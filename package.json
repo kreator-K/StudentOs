@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "validate:data": "node scripts/validate-data.mjs",
-    "build": "vite build && node scripts/package-static-site.mjs",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {

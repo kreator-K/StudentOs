@@ -18,8 +18,6 @@ npm run validate:data
 npm run build
 ```
 
-The production build places browser assets in `dist/client` and creates a minimal static-site Worker entry point in `dist/server`. The Worker delegates requests to the host's static asset binding; application behavior remains entirely client-side.
-
 There is no backend, authentication, API key, or AI service in this prototype. Ask uses deterministic search, discovery, and relationship traversal over the local Cornell dataset.
 
 ## Dataset
@@ -38,7 +36,7 @@ Ask is intentionally deterministic and dataset-grounded. It tokenizes the query,
 
 ## Deployment
 
-The app is deployed through OpenAI Sites using the project identifier in `.openai/hosting.json`. Run `npm run build`, package the generated `dist/` output, and save a version tied to the exact pushed Git commit before deploying it. No environment variables are required.
+Student OS is currently local-only. Run `npm run dev` for development or `npm run build` to generate the static Vite output. No hosted deployment is configured and no environment variables are required.
 
 ## Latest hardening pass
 
