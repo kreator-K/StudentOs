@@ -1,46 +1,303 @@
 [
-  {"id":"r-cornell-campusgroups","fromEntityId":"cornell-university","toEntityId":"campusgroups","type":"offers","confidence":"high"},
-  {"id":"r-campusgroups-orgs","fromEntityId":"campusgroups","toEntityId":"cornell-organization-discovery","type":"supports","confidence":"high"},
-  {"id":"r-campusgroups-clubfest","fromEntityId":"campusgroups","toEntityId":"cornell-clubfest","type":"related_to","confidence":"high"},
-  {"id":"r-cornell-events","fromEntityId":"cornell-university","toEntityId":"cornell-events","type":"offers","confidence":"high"},
-  {"id":"r-cornell-cuelinks","fromEntityId":"cornell-university","toEntityId":"cuelinks","type":"offers","confidence":"high"},
-  {"id":"r-cornell-career","fromEntityId":"cornell-university","toEntityId":"cornell-career-services","type":"offers","confidence":"high"},
-  {"id":"r-career-experiences","fromEntityId":"cornell-career-services","toEntityId":"career-experiences","type":"offers","confidence":"high"},
-  {"id":"r-johnson-life","fromEntityId":"johnson-school","toEntityId":"johnson-student-life","type":"offers","confidence":"high"},
-  {"id":"r-johnson-cmc","fromEntityId":"johnson-school","toEntityId":"johnson-career-management","type":"offers","confidence":"high"},
-  {"id":"r-johnson-entrepreneurship","fromEntityId":"johnson-school","toEntityId":"johnson-mba-entrepreneurship-curriculum","type":"offers","confidence":"high"},
-  {"id":"r-eac-elab","fromEntityId":"entrepreneurship-at-cornell","toEntityId":"elab","type":"offers","confidence":"high"},
-  {"id":"r-eac-launchpad","fromEntityId":"entrepreneurship-at-cornell","toEntityId":"blackstone-launchpad","type":"offers","confidence":"high"},
-  {"id":"r-eac-ecosystem","fromEntityId":"entrepreneurship-at-cornell","toEntityId":"entrepreneurship-ecosystem","type":"supports","confidence":"high"},
-  {"id":"r-eac-cen","fromEntityId":"entrepreneurship-at-cornell","toEntityId":"cornell-entrepreneur-network","type":"supports","confidence":"high"},
-  {"id":"r-eac-ehub","fromEntityId":"entrepreneurship-at-cornell","toEntityId":"ehub","type":"related_to","confidence":"high"},
-  {"id":"r-eac-lcl","fromEntityId":"entrepreneurship-at-cornell","toEntityId":"life-changing-labs","type":"related_to","confidence":"high"},
-  {"id":"r-eac-mark-mobius","fromEntityId":"entrepreneurship-ecosystem","toEntityId":"mark-mobius-pitch-competition","type":"offers","confidence":"high"},
-  {"id":"r-eac-capitalista","fromEntityId":"entrepreneurship-ecosystem","toEntityId":"cornell-capitalista-collective","type":"contains","confidence":"high"},
-  {"id":"r-eac-genai","fromEntityId":"entrepreneurship-ecosystem","toEntityId":"generative-ai-at-cornell","type":"contains","confidence":"high"},
-  {"id":"r-eac-gorges","fromEntityId":"entrepreneurship-ecosystem","toEntityId":"gorges-ventures","type":"contains","confidence":"high"},
-  {"id":"r-johnson-jssa","fromEntityId":"johnson-school","toEntityId":"johnson-summer-startup-accelerator","type":"offers","confidence":"high"},
-  {"id":"r-johnson-green","fromEntityId":"johnson-school","toEntityId":"green-technology-innovation-fellows","type":"offers","confidence":"high"},
-  {"id":"r-johnson-track","fromEntityId":"johnson-school","toEntityId":"johnson-entrepreneurship-track","type":"offers","confidence":"high"},
-  {"id":"r-johnson-fund","fromEntityId":"johnson-school","toEntityId":"big-red-venture-fund","type":"offers","confidence":"high"},
-  {"id":"r-johnson-tech","fromEntityId":"johnson-school","toEntityId":"big-red-tech-strategy","type":"offers","confidence":"high"},
-  {"id":"r-johnson-community","fromEntityId":"johnson-school","toEntityId":"johnson-entrepreneurship-events","type":"supports","confidence":"high"},
-  {"id":"r-johnson-curriculum-elab","fromEntityId":"johnson-mba-entrepreneurship-curriculum","toEntityId":"elab","type":"related_to","confidence":"high"},
-  {"id":"r-johnson-curriculum-fund","fromEntityId":"johnson-mba-entrepreneurship-curriculum","toEntityId":"big-red-venture-fund","type":"contains","confidence":"high"},
-  {"id":"r-johnson-curriculum-tech","fromEntityId":"johnson-mba-entrepreneurship-curriculum","toEntityId":"big-red-tech-strategy","type":"contains","confidence":"high"},
-  {"id":"r-cen-startuptree","fromEntityId":"cornell-entrepreneur-network","toEntityId":"startup-tree","type":"supports","confidence":"high"},
-  {"id":"r-bigredai-startuptree","fromEntityId":"big-red-ai","toEntityId":"startup-tree","type":"related_to","confidence":"medium"},
-  {"id":"r-bigredai-genai","fromEntityId":"big-red-ai","toEntityId":"generative-ai-at-cornell","type":"related_to","confidence":"medium"},
-  {"id":"r-bigredai-johnson","fromEntityId":"big-red-ai","toEntityId":"johnson-entrepreneurship-events","type":"related_to","confidence":"medium"},
-  {"id":"r-ccem-mark","fromEntityId":"ccem","toEntityId":"mark-mobius-pitch-competition","type":"related_to","confidence":"high"},
-  {"id":"r-research-opps","fromEntityId":"undergraduate-research-cornell","toEntityId":"research-opportunities-cornell","type":"offers","confidence":"high"},
-  {"id":"r-research-innovation","fromEntityId":"cornell-research-innovation","toEntityId":"cornell-innovation-entrepreneurship","type":"offers","confidence":"high"},
-  {"id":"r-innovation-elab","fromEntityId":"cornell-innovation-entrepreneurship","toEntityId":"elab","type":"related_to","confidence":"high"},
-  {"id":"r-cornell-appdev-collection","fromEntityId":"cornell-appdev","toEntityId":"cornell-student-built-ecosystem","type":"supports","confidence":"high"},
-  {"id":"r-jct-program","fromEntityId":"jct-mba-course-planner","toEntityId":"jct-mba-program","type":"useful_for","confidence":"high"},
-  {"id":"r-jct-collection","fromEntityId":"jct-mba-course-planner","toEntityId":"cornell-student-built-ecosystem","type":"part_of","confidence":"high"},
-  {"id":"r-jct-johnson","fromEntityId":"jct-mba-course-planner","toEntityId":"johnson-school","type":"related_to","confidence":"medium"},
-  {"id":"r-clubfest-orgs","fromEntityId":"cornell-clubfest","toEntityId":"cornell-organization-discovery","type":"related_to","confidence":"high"},
-  {"id":"r-eac-workshop-event","fromEntityId":"entrepreneurship-at-cornell","toEntityId":"cornell-innovation-workshops","type":"hosts","confidence":"high"},
-  {"id":"r-bigredai-community","fromEntityId":"big-red-ai","toEntityId":"generative-ai-at-cornell","type":"related_to","confidence":"medium"}
+  {
+    "id": "r-cornell-campusgroups",
+    "fromEntityId": "cornell-university",
+    "toEntityId": "campusgroups",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-campusgroups-orgs",
+    "fromEntityId": "campusgroups",
+    "toEntityId": "cornell-organization-discovery",
+    "type": "supports",
+    "confidence": "high"
+  },
+  {
+    "id": "r-campusgroups-clubfest",
+    "fromEntityId": "campusgroups",
+    "toEntityId": "cornell-clubfest",
+    "type": "related_to",
+    "confidence": "high"
+  },
+  {
+    "id": "r-cornell-events",
+    "fromEntityId": "cornell-university",
+    "toEntityId": "cornell-events",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-cornell-cuelinks",
+    "fromEntityId": "cornell-university",
+    "toEntityId": "cuelinks",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-cornell-career",
+    "fromEntityId": "cornell-university",
+    "toEntityId": "cornell-career-services",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-career-experiences",
+    "fromEntityId": "cornell-career-services",
+    "toEntityId": "career-experiences",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-life",
+    "fromEntityId": "johnson-school",
+    "toEntityId": "johnson-student-life",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-cmc",
+    "fromEntityId": "johnson-school",
+    "toEntityId": "johnson-career-management",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-entrepreneurship",
+    "fromEntityId": "johnson-school",
+    "toEntityId": "johnson-mba-entrepreneurship-curriculum",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-elab",
+    "fromEntityId": "entrepreneurship-at-cornell",
+    "toEntityId": "elab",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-launchpad",
+    "fromEntityId": "entrepreneurship-at-cornell",
+    "toEntityId": "blackstone-launchpad",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-ecosystem",
+    "fromEntityId": "entrepreneurship-at-cornell",
+    "toEntityId": "entrepreneurship-ecosystem",
+    "type": "supports",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-cen",
+    "fromEntityId": "entrepreneurship-at-cornell",
+    "toEntityId": "cornell-entrepreneur-network",
+    "type": "supports",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-ehub",
+    "fromEntityId": "entrepreneurship-at-cornell",
+    "toEntityId": "ehub",
+    "type": "related_to",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-lcl",
+    "fromEntityId": "entrepreneurship-at-cornell",
+    "toEntityId": "life-changing-labs",
+    "type": "related_to",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-mark-mobius",
+    "fromEntityId": "entrepreneurship-ecosystem",
+    "toEntityId": "mark-mobius-pitch-competition",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-capitalista",
+    "fromEntityId": "entrepreneurship-ecosystem",
+    "toEntityId": "cornell-capitalista-collective",
+    "type": "contains",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-genai",
+    "fromEntityId": "entrepreneurship-ecosystem",
+    "toEntityId": "generative-ai-at-cornell",
+    "type": "contains",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-gorges",
+    "fromEntityId": "entrepreneurship-ecosystem",
+    "toEntityId": "gorges-ventures",
+    "type": "contains",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-jssa",
+    "fromEntityId": "johnson-school",
+    "toEntityId": "johnson-summer-startup-accelerator",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-green",
+    "fromEntityId": "johnson-school",
+    "toEntityId": "green-technology-innovation-fellows",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-track",
+    "fromEntityId": "johnson-school",
+    "toEntityId": "johnson-entrepreneurship-track",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-fund",
+    "fromEntityId": "johnson-school",
+    "toEntityId": "big-red-venture-fund",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-tech",
+    "fromEntityId": "johnson-school",
+    "toEntityId": "big-red-tech-strategy",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-community",
+    "fromEntityId": "johnson-school",
+    "toEntityId": "johnson-entrepreneurship-events",
+    "type": "supports",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-curriculum-elab",
+    "fromEntityId": "johnson-mba-entrepreneurship-curriculum",
+    "toEntityId": "elab",
+    "type": "related_to",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-curriculum-fund",
+    "fromEntityId": "johnson-mba-entrepreneurship-curriculum",
+    "toEntityId": "big-red-venture-fund",
+    "type": "contains",
+    "confidence": "high"
+  },
+  {
+    "id": "r-johnson-curriculum-tech",
+    "fromEntityId": "johnson-mba-entrepreneurship-curriculum",
+    "toEntityId": "big-red-tech-strategy",
+    "type": "contains",
+    "confidence": "high"
+  },
+  {
+    "id": "r-cen-startuptree",
+    "fromEntityId": "cornell-entrepreneur-network",
+    "toEntityId": "startup-tree",
+    "type": "supports",
+    "confidence": "high"
+  },
+  {
+    "id": "r-bigredai-startuptree",
+    "fromEntityId": "big-red-ai",
+    "toEntityId": "startup-tree",
+    "type": "related_to",
+    "confidence": "medium"
+  },
+  {
+    "id": "r-bigredai-genai",
+    "fromEntityId": "big-red-ai",
+    "toEntityId": "generative-ai-at-cornell",
+    "type": "related_to",
+    "confidence": "medium"
+  },
+  {
+    "id": "r-bigredai-johnson",
+    "fromEntityId": "big-red-ai",
+    "toEntityId": "johnson-entrepreneurship-events",
+    "type": "related_to",
+    "confidence": "medium"
+  },
+  {
+    "id": "r-ccem-mark",
+    "fromEntityId": "ccem",
+    "toEntityId": "mark-mobius-pitch-competition",
+    "type": "related_to",
+    "confidence": "high"
+  },
+  {
+    "id": "r-research-opps",
+    "fromEntityId": "undergraduate-research-cornell",
+    "toEntityId": "research-opportunities-cornell",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-research-innovation",
+    "fromEntityId": "cornell-research-innovation",
+    "toEntityId": "cornell-innovation-entrepreneurship",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-innovation-elab",
+    "fromEntityId": "cornell-innovation-entrepreneurship",
+    "toEntityId": "elab",
+    "type": "related_to",
+    "confidence": "high"
+  },
+  {
+    "id": "r-cornell-appdev-apps",
+    "fromEntityId": "cornell-appdev",
+    "toEntityId": "cornell-appdev-apps",
+    "type": "offers",
+    "confidence": "high"
+  },
+  {
+    "id": "r-jct-program",
+    "fromEntityId": "jct-mba-course-planner",
+    "toEntityId": "jct-mba-program",
+    "type": "useful_for",
+    "confidence": "high"
+  },
+  {
+    "id": "r-jct-johnson",
+    "fromEntityId": "jct-mba-course-planner",
+    "toEntityId": "johnson-school",
+    "type": "related_to",
+    "confidence": "medium"
+  },
+  {
+    "id": "r-clubfest-orgs",
+    "fromEntityId": "cornell-clubfest",
+    "toEntityId": "cornell-organization-discovery",
+    "type": "related_to",
+    "confidence": "high"
+  },
+  {
+    "id": "r-eac-workshop-event",
+    "fromEntityId": "entrepreneurship-at-cornell",
+    "toEntityId": "cornell-innovation-workshops",
+    "type": "hosts",
+    "confidence": "high"
+  },
+  {
+    "id": "r-bigredai-community",
+    "fromEntityId": "big-red-ai",
+    "toEntityId": "generative-ai-at-cornell",
+    "type": "related_to",
+    "confidence": "medium"
+  }
 ]

@@ -1,44 +1,1669 @@
 [
-  {"id":"cornell-university","slug":"cornell-university","kind":"organization","domains":["communities","people","events","opportunities","entrepreneurship","student_built"],"name":"Cornell University","shortDescription":"The university context for the Cornell Student OS prototype.","universityId":"cornell-university","universityName":"Cornell University","source":{"sourceType":"official_university","sourceName":"Cornell University","sourceUrl":"https://www.cornell.edu/","confidence":"high"},"links":[{"url":"https://www.cornell.edu/","label":"Visit Cornell University","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"campusgroups","slug":"campusgroups","kind":"network","domains":["communities","events"],"name":"Cornell CampusGroups","shortDescription":"Cornell's online platform for student organizations, communities, and related events.","universityId":"cornell-university","universityName":"Cornell University","tags":["student-organizations","communities","events"],"source":{"sourceType":"official_university","sourceName":"Cornell CampusGroups","sourceUrl":"https://cornell.campusgroups.com/","confidence":"high"},"links":[{"url":"https://cornell.campusgroups.com/","label":"Open CampusGroups","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-events","slug":"cornell-events","kind":"network","domains":["events"],"name":"Cornell Events","shortDescription":"Cornell's central events calendar for campus events and related calendars.","universityId":"cornell-university","universityName":"Cornell University","tags":["events","calendar","campus-life"],"source":{"sourceType":"official_university","sourceName":"Cornell Events","sourceUrl":"https://events.cornell.edu/","confidence":"high"},"links":[{"url":"https://events.cornell.edu/","label":"Browse Cornell Events","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cuelinks","slug":"cuelinks","kind":"network","domains":["people","communities","opportunities"],"name":"CUeLINKS","shortDescription":"Cornell's networking platform for connecting students with alumni and peers around career, academic, and personal questions.","universityId":"cornell-university","universityName":"Cornell University","tags":["networking","alumni","mentorship","peers"],"source":{"sourceType":"official_university","sourceName":"CUeLINKS","sourceUrl":"https://cuelinks.cornell.edu/","confidence":"high"},"links":[{"url":"https://cuelinks.cornell.edu/","label":"Open CUeLINKS","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Cornell students","Cornell alumni"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-career-services","slug":"cornell-career-services","kind":"service","domains":["opportunities","people"],"name":"Cornell Career Services","shortDescription":"Central career development support and experiences for Cornell students.","universityId":"cornell-university","universityName":"Cornell University","tags":["career","experiences","opportunities","students"],"source":{"sourceType":"official_university","sourceName":"Cornell Career Services","sourceUrl":"https://career.cornell.edu/","confidence":"high"},"links":[{"url":"https://career.cornell.edu/","label":"Visit Cornell Career Services","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"career-experiences","slug":"career-experiences","kind":"network","domains":["opportunities"],"name":"Cornell Career Experiences","shortDescription":"A searchable collection of Cornell programs, research, funding, and entrepreneurial experiences.","universityId":"cornell-university","universityName":"Cornell University","tags":["research","funding","entrepreneurship","experiences"],"source":{"sourceType":"official_university","sourceName":"Cornell Career Services","sourceUrl":"https://career.cornell.edu/experiences/","confidence":"high"},"links":[{"url":"https://career.cornell.edu/experiences/","label":"Browse career experiences","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"johnson-school","slug":"johnson-school-of-management","kind":"organization","domains":["communities","people","events","opportunities","entrepreneurship"],"name":"Samuel Curtis Johnson Graduate School of Management","shortDescription":"Cornell's graduate business school and the academic home for the initial MBA-focused prototype persona.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","tags":["mba","business","graduate-school"],"source":{"sourceType":"official_school_department","sourceName":"Johnson School of Management","sourceUrl":"https://www.johnson.cornell.edu/","confidence":"high"},"links":[{"url":"https://www.johnson.cornell.edu/","label":"Visit Johnson","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"johnson-student-life","slug":"johnson-student-life","kind":"community","domains":["communities","events"],"name":"Johnson Student Life and Organizations","shortDescription":"Johnson's student-life hub for organizations, activities, and community participation.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","program":"Johnson MBA","tags":["mba","student-organizations","student-life"],"source":{"sourceType":"official_school_department","sourceName":"Johnson School of Management","sourceUrl":"https://www.johnson.cornell.edu/experience/student-life/","confidence":"high"},"links":[{"url":"https://www.johnson.cornell.edu/experience/student-life/","label":"Explore Johnson student life","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Johnson students"],"programs":["Johnson MBA"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"johnson-career-management","slug":"johnson-career-management-center","kind":"service","domains":["people","opportunities"],"name":"Johnson Career Management Center","shortDescription":"Career support and recruiting resources for Johnson students.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","tags":["career","mba","recruiting"],"source":{"sourceType":"official_school_department","sourceName":"Johnson Career Management Center","sourceUrl":"https://business.cornell.edu/career-support/","confidence":"high"},"links":[{"url":"https://business.cornell.edu/career-support/","label":"Visit Johnson career support","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Johnson students"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"entrepreneurship-at-cornell","slug":"entrepreneurship-at-cornell","kind":"organization","domains":["communities","events","opportunities","entrepreneurship"],"name":"Entrepreneurship at Cornell","shortDescription":"A university-wide program that energizes and connects Cornell's entrepreneurship ecosystem.","universityId":"cornell-university","universityName":"Cornell University","tags":["entrepreneurship","startups","innovation","mentorship"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/","label":"Visit Entrepreneurship at Cornell","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"entrepreneurship-ecosystem","slug":"entrepreneurship-ecosystem","kind":"network","domains":["communities","events","opportunities","entrepreneurship"],"name":"Cornell Entrepreneurship Ecosystem Listings","shortDescription":"A directory of Cornell entrepreneurship programs, competitions, funding, clubs, mentorship, and related resources.","universityId":"cornell-university","universityName":"Cornell University","tags":["entrepreneurship","competitions","funding","clubs"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/all-listings/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/all-listings/","label":"Browse entrepreneurship listings","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"elab","slug":"elab","kind":"program","domains":["communities","opportunities","entrepreneurship"],"name":"eLab","shortDescription":"Cornell's competitive student business accelerator for students ready to launch real businesses.","universityId":"cornell-university","universityName":"Cornell University","tags":["entrepreneurship","accelerator","startups","student-founders"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://elab.cornell.edu/","confidence":"high"},"links":[{"url":"https://elab.cornell.edu/","label":"Visit eLab","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Cornell students","student founders"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"blackstone-launchpad","slug":"blackstone-launchpad","kind":"program","domains":["people","opportunities","entrepreneurship"],"name":"Blackstone LaunchPad at Cornell","shortDescription":"Entrepreneurship mentorship and venture-creation support for Cornell students and startups.","universityId":"cornell-university","universityName":"Cornell University","tags":["entrepreneurship","mentorship","venture-building"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/blackstone-launchpad/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/blackstone-launchpad/","label":"Visit Blackstone LaunchPad","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Cornell students","student founders"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"ehub","slug":"ehub","kind":"place","domains":["communities","events","entrepreneurship"],"name":"eHub","shortDescription":"A Cornell entrepreneurship collaboration and coworking space for the university community.","universityId":"cornell-university","universityName":"Cornell University","tags":["entrepreneurship","coworking","community","events"],"source":{"sourceType":"official_university","sourceName":"Center for Regional Economic Advancement","sourceUrl":"https://crea.cornell.edu/on-campus-entrepreneurship-programs/","confidence":"high"},"links":[{"url":"https://crea.cornell.edu/on-campus-entrepreneurship-programs/","label":"Explore Cornell entrepreneurship programs","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"johnson-summer-startup-accelerator","slug":"johnson-summer-startup-accelerator","kind":"program","domains":["opportunities","entrepreneurship"],"name":"Johnson Summer Startup Accelerator","shortDescription":"A summer program supporting graduate management students as they advance entrepreneurial ventures.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","tags":["entrepreneurship","mba","startups","accelerator"],"source":{"sourceType":"official_school_department","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/introducing-the-2026-johnson-summer-startup-accelerator-cohort/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/introducing-the-2026-johnson-summer-startup-accelerator-cohort/","label":"Read about the accelerator","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Graduate management students","Executive MBA students"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"green-technology-innovation-fellows","slug":"green-technology-innovation-fellows","kind":"opportunity","domains":["people","opportunities","entrepreneurship"],"name":"Green Technology Innovation Fellows Program","shortDescription":"A program connecting Cornell researchers with Johnson MBA students around green technology ventures.","universityId":"cornell-university","universityName":"Cornell University","tags":["sustainability","green-technology","research","mba"],"source":{"sourceType":"official_university","sourceName":"Center for Regional Economic Advancement","sourceUrl":"https://crea.cornell.edu/on-campus-entrepreneurship-programs/","confidence":"high"},"links":[{"url":"https://crea.cornell.edu/on-campus-entrepreneurship-programs/","label":"View the program listing","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Cornell researchers","Johnson MBA students"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"life-changing-labs","slug":"life-changing-labs","kind":"organization","domains":["communities","events","opportunities","entrepreneurship"],"name":"Life Changing Labs","shortDescription":"A Cornell-affiliated entrepreneurship community supporting student founders through mentorship, events, and startup programs.","universityId":"cornell-university","universityName":"Cornell University","tags":["entrepreneurship","student-founders","mentorship","incubator"],"source":{"sourceType":"official_university","sourceName":"Cornell Experience","sourceUrl":"https://experience.cornell.edu/opportunities/life-changing-labs","confidence":"high"},"links":[{"url":"https://experience.cornell.edu/opportunities/life-changing-labs","label":"Explore Life Changing Labs","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Cornell students","student entrepreneurs"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-entrepreneur-network","slug":"cornell-entrepreneur-network","kind":"network","domains":["people","events","opportunities","entrepreneurship"],"name":"Cornell Entrepreneur Network","shortDescription":"A Cornell entrepreneurship network offering events, networking, and webinars featuring alumni industry leaders.","universityId":"cornell-university","universityName":"Cornell University","tags":["entrepreneurship","alumni","networking","events"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/","label":"Explore Entrepreneurship at Cornell","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"mark-mobius-pitch-competition","slug":"mark-mobius-pitch-competition","kind":"opportunity","domains":["events","opportunities","entrepreneurship"],"name":"Cornell EMI Mark Mobius Pitch Competition","shortDescription":"A pitch competition for student entrepreneurs and recent graduates operating or launching startups in emerging-market countries.","universityId":"cornell-university","universityName":"Cornell University","tags":["entrepreneurship","pitch","emerging-markets","competition"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/all-listings/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/all-listings/","label":"View the competition listing","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-capitalista-collective","slug":"cornell-capitalista-collective","kind":"community","domains":["communities","entrepreneurship"],"name":"Cornell Capitalista Collective Club","shortDescription":"A Cornell student club listed in the entrepreneurship ecosystem directory with a venture capital and private equity focus.","universityId":"cornell-university","universityName":"Cornell University","tags":["venture-capital","private-equity","student-club"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/all-listings/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/all-listings/","label":"View the club listing","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"generative-ai-at-cornell","slug":"generative-ai-at-cornell","kind":"community","domains":["communities","people","events","entrepreneurship"],"name":"Generative AI at Cornell","shortDescription":"A Cornell community listed as bridging students and industry leaders to build AI tools.","universityId":"cornell-university","universityName":"Cornell University","tags":["artificial-intelligence","technology","student-community","industry"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/all-listings/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/all-listings/","label":"View the community listing","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"gorges-ventures","slug":"gorges-ventures","kind":"community","domains":["communities","people","entrepreneurship"],"name":"Gorges Ventures","shortDescription":"A Cornell MBA community connecting founders across the Cornell ecosystem.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","tags":["founders","mba","entrepreneurship","community"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/all-listings/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/all-listings/","label":"View the community listing","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Johnson MBA students"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"ccem","slug":"canizares-center-emerging-markets","kind":"organization","domains":["communities","events","opportunities","entrepreneurship"],"name":"Cañizares Center for Emerging Markets","shortDescription":"A Cornell business center focused on emerging-market research, education, and community connections.","universityId":"cornell-university","universityName":"Cornell University","school":"SC Johnson College of Business","tags":["emerging-markets","research","business","events"],"source":{"sourceType":"official_school_department","sourceName":"SC Johnson College of Business","sourceUrl":"https://business.cornell.edu/centers/ccem/","confidence":"high"},"links":[{"url":"https://business.cornell.edu/centers/ccem/","label":"Visit the Cañizares Center","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"johnson-entrepreneurship-track","slug":"johnson-entrepreneurship-track","kind":"program","domains":["opportunities","entrepreneurship"],"name":"Johnson Entrepreneurship Track","shortDescription":"A Johnson pathway supporting MBA students developing business ideas and entrepreneurial skills.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","tags":["entrepreneurship","mba","curriculum","startups"],"source":{"sourceType":"official_school_department","sourceName":"Cornell College of Business","sourceUrl":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","confidence":"high"},"links":[{"url":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","label":"Explore Johnson entrepreneurship","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Johnson MBA students"],"programs":["Johnson MBA"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"big-red-venture-fund","slug":"big-red-venture-fund","kind":"program","domains":["people","opportunities","entrepreneurship"],"name":"Big Red Venture Fund","shortDescription":"A Johnson MBA course and venture-investing experience that works with real startup capital.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","tags":["venture-capital","mba","startups","investment"],"source":{"sourceType":"official_school_department","sourceName":"Johnson School of Management","sourceUrl":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","confidence":"high"},"links":[{"url":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","label":"View the startup suite","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Johnson MBA students"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"big-red-tech-strategy","slug":"big-red-tech-strategy","kind":"community","domains":["communities","people","opportunities","entrepreneurship"],"name":"Big Red Tech Strategy","shortDescription":"An MBA club connecting first-year Johnson students with Cornell graduate students in the hard sciences around early-stage business strategy.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","tags":["technology","strategy","mba","cross-campus"],"source":{"sourceType":"official_school_department","sourceName":"Johnson School of Management","sourceUrl":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","confidence":"high"},"links":[{"url":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","label":"View the startup suite","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Johnson MBA students","Cornell graduate students"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"undergraduate-research-cornell","slug":"undergraduate-research-cornell","kind":"service","domains":["people","opportunities"],"name":"Undergraduate Research at Cornell","shortDescription":"Cornell's central starting point for students exploring faculty research, programs, and research pathways.","universityId":"cornell-university","universityName":"Cornell University","tags":["research","faculty","students","mentorship"],"source":{"sourceType":"official_university","sourceName":"Cornell University","sourceUrl":"https://undergraduateresearch.cornell.edu/","confidence":"high"},"links":[{"url":"https://undergraduateresearch.cornell.edu/","label":"Explore undergraduate research","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"research-opportunities-cornell","slug":"research-opportunities-cornell","kind":"opportunity","domains":["people","opportunities"],"name":"Cornell Research Opportunities","shortDescription":"A guide to finding faculty research, summer programs, paid roles, volunteer positions, and academic-credit opportunities.","universityId":"cornell-university","universityName":"Cornell University","tags":["research","faculty","summer","opportunities"],"source":{"sourceType":"official_university","sourceName":"Cornell University","sourceUrl":"https://undergraduateresearch.cornell.edu/research-opportunities/","confidence":"high"},"links":[{"url":"https://undergraduateresearch.cornell.edu/research-opportunities/","label":"Browse research opportunities","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-innovation-entrepreneurship","slug":"cornell-innovation-entrepreneurship","kind":"organization","domains":["people","opportunities","entrepreneurship"],"name":"Entrepreneurship & Innovation at Cornell","shortDescription":"A university-wide entrepreneurship and innovation hub supporting researchers, inventors, entrepreneurs, and students.","universityId":"cornell-university","universityName":"Cornell University","tags":["innovation","entrepreneurship","research","funding"],"source":{"sourceType":"official_university","sourceName":"Cornell Research & Innovation","sourceUrl":"https://research-and-innovation.cornell.edu/innovation-entrepreneurship/","confidence":"high"},"links":[{"url":"https://research-and-innovation.cornell.edu/innovation-entrepreneurship/","label":"Explore Cornell innovation and entrepreneurship","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-appdev","slug":"cornell-appdev","kind":"community","domains":["communities","student_built"],"name":"Cornell AppDev","shortDescription":"A student-run community that builds products for the Cornell community.","universityId":"cornell-university","universityName":"Cornell University","tags":["student-built","technology","product","software"],"source":{"sourceType":"student_built","sourceName":"Cornell AppDev","sourceUrl":"https://www.cornellappdev.com/","confidence":"high"},"links":[{"url":"https://www.cornellappdev.com/","label":"Visit Cornell AppDev","linkType":"primary_source","isPrimary":true}],"studentBuilt":true,"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"jct-mba-course-planner","slug":"jct-mba-fall-2026-course-planner","kind":"student_resource","domains":["student_built"],"name":"JCT MBA Fall 2026 Course Planner","shortDescription":"A student-built course-planning tool for the Cornell Tech MBA program.","universityId":"cornell-university","universityName":"Cornell University","program":"Cornell Tech MBA","tags":["student-built","course-planning","mba","cornell-tech"],"source":{"sourceType":"student_built","sourceName":"JCT MBA Fall 2026 Course Planner","sourceUrl":"https://jctmba27.vercel.app/","confidence":"high"},"links":[{"url":"https://jctmba27.vercel.app/","label":"Open the course planner","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Cornell Tech MBA students"],"programs":["Cornell Tech MBA"]},"studentBuilt":true,"resourceType":"course_planner","maintenanceStatus":"unknown","status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"big-red-ai","slug":"big-red-ai","kind":"network","domains":["people","communities","events","opportunities","entrepreneurship"],"name":"Big Red AI","shortDescription":"A Cornellian community connecting people, mentors, jobs, startups, events, research, and related opportunities.","universityId":"cornell-university","universityName":"Cornell University","tags":["artificial-intelligence","startups","mentors","jobs","research"],"source":{"sourceType":"cornellian_community","sourceName":"Big Red AI","sourceUrl":"https://bigredai.org/","confidence":"high"},"links":[{"url":"https://bigredai.org/","label":"Visit Big Red AI","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"startup-tree","slug":"cornell-startuptree","kind":"network","domains":["people","communities","opportunities","entrepreneurship"],"name":"Cornell StartupTree","shortDescription":"A Cornell entrepreneurship platform for discovering mentors, startups, events, jobs, internships, and founder connections.","universityId":"cornell-university","universityName":"Cornell University","tags":["startups","mentorship","alumni","jobs","entrepreneurship"],"source":{"sourceType":"official_university","sourceName":"Cornell Entrepreneurship Network","sourceUrl":"https://alumni.cornell.edu/connect/networking/cen/resources/","confidence":"high"},"links":[{"url":"https://alumni.cornell.edu/connect/networking/cen/resources/","label":"Explore Cornell entrepreneurial resources","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"johnson-mba-entrepreneurship-curriculum","slug":"johnson-mba-entrepreneurship-curriculum","kind":"program","domains":["opportunities","entrepreneurship"],"name":"Johnson MBA Entrepreneurship Curriculum","shortDescription":"Johnson MBA curriculum and startup-building resources connected to entrepreneurship, eLab, and student-run venture experiences.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","program":"Johnson MBA","tags":["mba","entrepreneurship","curriculum","startups"],"source":{"sourceType":"official_school_department","sourceName":"Johnson School of Management","sourceUrl":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","confidence":"high"},"links":[{"url":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","label":"Explore the entrepreneurship curriculum","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Johnson MBA students"],"programs":["Johnson MBA"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-entrepreneurship-courses","slug":"cornell-entrepreneurship-courses-and-minors","kind":"program","domains":["opportunities","entrepreneurship"],"name":"Cornell Entrepreneurship Courses and Minors","shortDescription":"A Cornell guide to entrepreneurship courses, minors, concentrations, and the eLab curriculum pathway.","universityId":"cornell-university","universityName":"Cornell University","tags":["entrepreneurship","courses","minor","curriculum"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/entrepreneurship-courses-and-minors/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/entrepreneurship-courses-and-minors/","label":"Browse entrepreneurship courses","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-innovation-workshops","slug":"cornell-innovation-workshops","kind":"event","domains":["events","entrepreneurship"],"name":"Cornell Innovation & Entrepreneurship Workshops","shortDescription":"Workshops that help students and researchers explore the entrepreneurial journey from ideation to impact.","universityId":"cornell-university","universityName":"Cornell University","tags":["workshops","innovation","entrepreneurship"],"source":{"sourceType":"official_university","sourceName":"Entrepreneurship at Cornell","sourceUrl":"https://eship.cornell.edu/all-listings/","confidence":"high"},"links":[{"url":"https://eship.cornell.edu/all-listings/","label":"View workshop information","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-organization-discovery","slug":"cornell-organization-discovery","kind":"service","domains":["communities","events"],"name":"Cornell Student Organization Discovery","shortDescription":"Cornell's student-organization discovery entry point for finding communities and campus activities.","universityId":"cornell-university","universityName":"Cornell University","tags":["student-organizations","clubs","communities"],"source":{"sourceType":"official_university","sourceName":"Cornell Campus Activities","sourceUrl":"https://scl.cornell.edu/get-involved/campus-activities/student-organizations","confidence":"high"},"links":[{"url":"https://scl.cornell.edu/get-involved/campus-activities/student-organizations","label":"Explore student organizations","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-clubfest","slug":"cornell-clubfest","kind":"event","domains":["communities","events"],"name":"Cornell ClubFest","shortDescription":"Cornell's student-organization involvement fair and an in-person entry point to campus communities.","universityId":"cornell-university","universityName":"Cornell University","tags":["clubs","student-organizations","involvement-fair","communities"],"source":{"sourceType":"official_university","sourceName":"Cornell Campus Activities","sourceUrl":"https://scl.cornell.edu/sub/clubfest","confidence":"high"},"links":[{"url":"https://scl.cornell.edu/sub/clubfest","label":"Learn about ClubFest","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-research-innovation","slug":"cornell-research-innovation","kind":"organization","domains":["people","opportunities","entrepreneurship"],"name":"Cornell Research & Innovation","shortDescription":"A university division connecting research, innovation, technology licensing, entrepreneurship, and commercialization resources.","universityId":"cornell-university","universityName":"Cornell University","tags":["research","innovation","technology-transfer","entrepreneurship"],"source":{"sourceType":"official_university","sourceName":"Cornell Research & Innovation","sourceUrl":"https://research-and-innovation.cornell.edu/innovation-entrepreneurship/","confidence":"high"},"links":[{"url":"https://research-and-innovation.cornell.edu/innovation-entrepreneurship/","label":"Explore research and innovation","linkType":"primary_source","isPrimary":true}],"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"jct-mba-program","slug":"jct-mba-program","kind":"program","domains":["communities","opportunities","student_built"],"name":"Cornell Tech MBA","shortDescription":"Cornell's technology-focused MBA program and the intended audience for the JCT course planner resource.","universityId":"cornell-university","universityName":"Cornell University","program":"Cornell Tech MBA","tags":["mba","technology","cornell-tech"],"source":{"sourceType":"official_school_department","sourceName":"Cornell Tech","sourceUrl":"https://tech.cornell.edu/programs/masters-degrees/johnson-cornell-tech-mba/","confidence":"medium"},"links":[{"url":"https://tech.cornell.edu/programs/masters-degrees/johnson-cornell-tech-mba/","label":"Explore Cornell Tech MBA","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Cornell Tech MBA students"],"programs":["Cornell Tech MBA"]},"status":"needs_review","lastVerifiedAt":"2026-08-17"},
-  {"id":"johnson-entrepreneurship-events","slug":"johnson-entrepreneurship-events","kind":"network","domains":["events","communities","entrepreneurship"],"name":"Johnson Entrepreneurship Community","shortDescription":"The Johnson-connected entrepreneurship community spanning courses, startup programs, clubs, events, and founders.","universityId":"cornell-university","universityName":"Cornell University","school":"Johnson Graduate School of Management","tags":["mba","entrepreneurship","events","founders"],"source":{"sourceType":"official_school_department","sourceName":"Johnson School of Management","sourceUrl":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","confidence":"high"},"links":[{"url":"https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/","label":"Explore Johnson entrepreneurship","linkType":"primary_source","isPrimary":true}],"audience":{"audiences":["Johnson MBA students"]},"status":"active","lastVerifiedAt":"2026-08-17"},
-  {"id":"cornell-student-built-ecosystem","slug":"cornell-student-built-ecosystem","kind":"network","domains":["student_built"],"name":"Cornell Student-built Resources","shortDescription":"A discovery collection for student-created tools, guides, apps, websites, and community infrastructure.","universityId":"cornell-university","universityName":"Cornell University","tags":["student-built","tools","guides","apps"],"source":{"sourceType":"student_built","sourceName":"Student OS curated collection","sourceUrl":"https://www.cornellappdev.com/","confidence":"medium","verificationNotes":"Collection currently anchored by Cornell AppDev and the verified JCT MBA course planner; expand only with individually verified resources."},"links":[{"url":"https://www.cornellappdev.com/","label":"Explore Cornell AppDev","linkType":"primary_source","isPrimary":true}],"studentBuilt":true,"status":"active","lastVerifiedAt":"2026-08-17"}
+  {
+    "id": "cornell-university",
+    "slug": "cornell-university",
+    "kind": "organization",
+    "domains": [
+      "communities",
+      "people",
+      "events",
+      "opportunities",
+      "entrepreneurship",
+      "student_built"
+    ],
+    "name": "Cornell University",
+    "shortDescription": "The university context for the Cornell Student OS prototype.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell University",
+      "sourceUrl": "https://www.cornell.edu/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.cornell.edu/",
+        "label": "Visit Cornell University",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities",
+    "discoverable": false
+  },
+  {
+    "id": "campusgroups",
+    "slug": "campusgroups",
+    "kind": "network",
+    "domains": [
+      "communities",
+      "events"
+    ],
+    "name": "Cornell CampusGroups",
+    "shortDescription": "Cornell's online platform for student organizations, communities, and related events.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "student-organizations",
+      "communities",
+      "events"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell CampusGroups",
+      "sourceUrl": "https://cornell.campusgroups.com/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://cornell.campusgroups.com/",
+        "label": "Open CampusGroups",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities"
+  },
+  {
+    "id": "cornell-events",
+    "slug": "cornell-events",
+    "kind": "network",
+    "domains": [
+      "events"
+    ],
+    "name": "Cornell Events",
+    "shortDescription": "Cornell's central events calendar for campus events and related calendars.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "events",
+      "calendar",
+      "campus-life"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell Events",
+      "sourceUrl": "https://events.cornell.edu/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://events.cornell.edu/",
+        "label": "Browse Cornell Events",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "events"
+  },
+  {
+    "id": "cuelinks",
+    "slug": "cuelinks",
+    "kind": "network",
+    "domains": [
+      "people",
+      "communities",
+      "opportunities"
+    ],
+    "name": "CUeLINKS",
+    "shortDescription": "Cornell's networking platform for connecting students with alumni and peers around career, academic, and personal questions.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "networking",
+      "alumni",
+      "mentorship",
+      "peers"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "CUeLINKS",
+      "sourceUrl": "https://cuelinks.cornell.edu/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://cuelinks.cornell.edu/",
+        "label": "Open CUeLINKS",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Cornell students",
+        "Cornell alumni"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "people"
+  },
+  {
+    "id": "cornell-career-services",
+    "slug": "cornell-career-services",
+    "kind": "service",
+    "domains": [
+      "opportunities",
+      "people"
+    ],
+    "name": "Cornell Career Services",
+    "shortDescription": "Central career development support and experiences for Cornell students.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "career",
+      "experiences",
+      "opportunities",
+      "students"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell Career Services",
+      "sourceUrl": "https://career.cornell.edu/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://career.cornell.edu/",
+        "label": "Visit Cornell Career Services",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "opportunities"
+  },
+  {
+    "id": "career-experiences",
+    "slug": "career-experiences",
+    "kind": "network",
+    "domains": [
+      "opportunities"
+    ],
+    "name": "Cornell Career Experiences",
+    "shortDescription": "A searchable collection of Cornell programs, research, funding, and entrepreneurial experiences.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "research",
+      "funding",
+      "entrepreneurship",
+      "experiences"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell Career Services",
+      "sourceUrl": "https://career.cornell.edu/experiences/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://career.cornell.edu/experiences/",
+        "label": "Browse career experiences",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "opportunities"
+  },
+  {
+    "id": "johnson-school",
+    "slug": "johnson-school-of-management",
+    "kind": "organization",
+    "domains": [
+      "communities",
+      "people",
+      "events",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Samuel Curtis Johnson Graduate School of Management",
+    "shortDescription": "Cornell's graduate business school and the academic home for the initial MBA-focused prototype persona.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "tags": [
+      "mba",
+      "business",
+      "graduate-school"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Johnson School of Management",
+      "sourceUrl": "https://www.johnson.cornell.edu/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.johnson.cornell.edu/",
+        "label": "Visit Johnson",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities",
+    "discoverable": false
+  },
+  {
+    "id": "johnson-student-life",
+    "slug": "johnson-student-life",
+    "kind": "community",
+    "domains": [
+      "communities",
+      "events"
+    ],
+    "name": "Johnson Clubs and Community",
+    "shortDescription": "Johnson's current overview of MBA clubs, organizations, signature events, and campus-wide community connections.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "program": "Johnson MBA",
+    "tags": [
+      "mba",
+      "student-organizations",
+      "student-life"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Johnson School of Management",
+      "sourceUrl": "https://business.cornell.edu/johnson/why-johnson/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://business.cornell.edu/johnson/why-johnson/",
+        "label": "Explore Johnson clubs and community",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Johnson students"
+      ],
+      "programs": [
+        "Johnson MBA"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities"
+  },
+  {
+    "id": "johnson-career-management",
+    "slug": "johnson-career-management-center",
+    "kind": "service",
+    "domains": [
+      "people",
+      "opportunities"
+    ],
+    "name": "Johnson Career Management Center",
+    "shortDescription": "Career support and recruiting resources for Johnson students.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "tags": [
+      "career",
+      "mba",
+      "recruiting"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Johnson Career Management Center",
+      "sourceUrl": "https://business.cornell.edu/career-support/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://business.cornell.edu/career-support/",
+        "label": "Visit Johnson career support",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Johnson students"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "opportunities"
+  },
+  {
+    "id": "entrepreneurship-at-cornell",
+    "slug": "entrepreneurship-at-cornell",
+    "kind": "organization",
+    "domains": [
+      "communities",
+      "events",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Entrepreneurship at Cornell",
+    "shortDescription": "A university-wide program that energizes and connects Cornell's entrepreneurship ecosystem.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "entrepreneurship",
+      "startups",
+      "innovation",
+      "mentorship"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://eship.cornell.edu/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://eship.cornell.edu/",
+        "label": "Visit Entrepreneurship at Cornell",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "entrepreneurship-ecosystem",
+    "slug": "entrepreneurship-ecosystem",
+    "kind": "network",
+    "domains": [
+      "communities",
+      "events",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Cornell Entrepreneurship Ecosystem Listings",
+    "shortDescription": "A directory of Cornell entrepreneurship programs, competitions, funding, clubs, mentorship, and related resources.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "entrepreneurship",
+      "competitions",
+      "funding",
+      "clubs"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://eship.cornell.edu/all-listings/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://eship.cornell.edu/all-listings/",
+        "label": "Browse entrepreneurship listings",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "elab",
+    "slug": "elab",
+    "kind": "program",
+    "domains": [
+      "communities",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "eLab",
+    "shortDescription": "Cornell's competitive student business accelerator for students ready to launch real businesses.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "entrepreneurship",
+      "accelerator",
+      "startups",
+      "student-founders"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://eship.cornell.edu/item/elab/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.elabstartup.com/",
+        "label": "Visit eLab",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Cornell students",
+        "student founders"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "blackstone-launchpad",
+    "slug": "blackstone-launchpad",
+    "kind": "program",
+    "domains": [
+      "people",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Launchpad Ezra",
+    "shortDescription": "Mentorship and venture-creation support for Cornell students, alumni, faculty, and staff at any stage of an entrepreneurial journey.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "entrepreneurship",
+      "mentorship",
+      "venture-building"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://eship.cornell.edu/item/launchpad-ezra/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://eship.cornell.edu/item/launchpad-ezra/",
+        "label": "Explore Launchpad Ezra",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Cornell students",
+        "student founders"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "ehub",
+    "slug": "ehub",
+    "kind": "place",
+    "domains": [
+      "communities",
+      "events",
+      "entrepreneurship"
+    ],
+    "name": "eHub",
+    "shortDescription": "A Cornell entrepreneurship collaboration and coworking space for the university community.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "entrepreneurship",
+      "coworking",
+      "community",
+      "events"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Center for Regional Economic Advancement",
+      "sourceUrl": "https://eship.cornell.edu/item/ehub/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://eship.cornell.edu/item/ehub/",
+        "label": "Explore eHub",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "johnson-summer-startup-accelerator",
+    "slug": "johnson-summer-startup-accelerator",
+    "kind": "program",
+    "domains": [
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Johnson Summer Startup Accelerator",
+    "shortDescription": "A summer program supporting graduate management students as they advance entrepreneurial ventures.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "tags": [
+      "entrepreneurship",
+      "mba",
+      "startups",
+      "accelerator"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://eship.cornell.edu/item/johnson-summer-startup-accelerator/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://eship.cornell.edu/item/johnson-summer-startup-accelerator/",
+        "label": "Explore the accelerator",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Graduate management students",
+        "Executive MBA students"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "green-technology-innovation-fellows",
+    "slug": "green-technology-innovation-fellows",
+    "kind": "opportunity",
+    "domains": [
+      "people",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Green Technology Innovation Fellows Program",
+    "shortDescription": "A program connecting Cornell researchers with Johnson MBA students around green technology ventures.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "sustainability",
+      "green-technology",
+      "research",
+      "mba"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Center for Regional Economic Advancement",
+      "sourceUrl": "https://crea.cornell.edu/project/green-technology-innovation-fellows/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://crea.cornell.edu/project/green-technology-innovation-fellows/",
+        "label": "Explore the fellows program",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Cornell researchers",
+        "Johnson MBA students"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "opportunities"
+  },
+  {
+    "id": "life-changing-labs",
+    "slug": "life-changing-labs",
+    "kind": "organization",
+    "domains": [
+      "communities",
+      "events",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Life Changing Labs",
+    "shortDescription": "A Cornell-affiliated entrepreneurship community supporting student founders through mentorship, events, and startup programs.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "entrepreneurship",
+      "student-founders",
+      "mentorship",
+      "incubator"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell Experience",
+      "sourceUrl": "https://experience.cornell.edu/opportunities/life-changing-labs",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://experience.cornell.edu/opportunities/life-changing-labs",
+        "label": "Explore Life Changing Labs",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Cornell students",
+        "student entrepreneurs"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "cornell-entrepreneur-network",
+    "slug": "cornell-entrepreneur-network",
+    "kind": "network",
+    "domains": [
+      "people",
+      "events",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Cornell Entrepreneur Network",
+    "shortDescription": "A Cornell entrepreneurship network offering events, networking, and webinars featuring alumni industry leaders.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "entrepreneurship",
+      "alumni",
+      "networking",
+      "events"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://alumni.cornell.edu/connect/networking/cen/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://alumni.cornell.edu/connect/networking/cen/",
+        "label": "Visit Cornell Entrepreneur Network",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "people"
+  },
+  {
+    "id": "mark-mobius-pitch-competition",
+    "slug": "mark-mobius-pitch-competition",
+    "kind": "opportunity",
+    "domains": [
+      "events",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Cornell EMI Mark Mobius Pitch Competition",
+    "shortDescription": "A pitch competition for student entrepreneurs and recent graduates operating or launching startups in emerging-market countries.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "entrepreneurship",
+      "pitch",
+      "emerging-markets",
+      "competition"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://business.cornell.edu/centers/ccem/conference/pitch-competition/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://business.cornell.edu/centers/ccem/conference/pitch-competition/",
+        "label": "View the pitch competition",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "opportunities"
+  },
+  {
+    "id": "cornell-capitalista-collective",
+    "slug": "cornell-capitalista-collective",
+    "kind": "community",
+    "domains": [
+      "communities",
+      "entrepreneurship"
+    ],
+    "name": "Cornell Capitalista Collective Club",
+    "shortDescription": "A Cornell student club listed in the entrepreneurship ecosystem directory with a venture capital and private equity focus.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "venture-capital",
+      "private-equity",
+      "student-club"
+    ],
+    "source": {
+      "sourceType": "cornellian_community",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://eship.cornell.edu/item/cornell-capitalista-collective-club-ccc/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://cornell.campusgroups.com/capitalista/home/",
+        "label": "Visit Capitalista on CampusGroups",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities"
+  },
+  {
+    "id": "generative-ai-at-cornell",
+    "slug": "generative-ai-at-cornell",
+    "kind": "community",
+    "domains": [
+      "communities",
+      "people",
+      "events",
+      "entrepreneurship"
+    ],
+    "name": "Generative AI at Cornell",
+    "shortDescription": "A Cornellian community listed by Entrepreneurship at Cornell as bridging students and industry leaders to build generative-AI tools.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "artificial-intelligence",
+      "technology",
+      "student-community",
+      "industry"
+    ],
+    "source": {
+      "sourceType": "cornellian_community",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://eship.cornell.edu/item/generative-ai-at-cornell/",
+      "confidence": "high",
+      "verificationNotes": "The community's previously listed standalone domain is parked; this action links to the current Cornell directory detail page."
+    },
+    "links": [
+      {
+        "url": "https://eship.cornell.edu/item/generative-ai-at-cornell/",
+        "label": "View the verified community listing",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "needs_review",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities"
+  },
+  {
+    "id": "gorges-ventures",
+    "slug": "gorges-ventures",
+    "kind": "community",
+    "domains": [
+      "communities",
+      "people",
+      "entrepreneurship"
+    ],
+    "name": "Gorges Ventures",
+    "shortDescription": "A student- and alumni-led, invite-only Cornell MBA investment community connecting members with Cornell founders.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "tags": [
+      "founders",
+      "mba",
+      "entrepreneurship",
+      "community"
+    ],
+    "source": {
+      "sourceType": "cornellian_community",
+      "sourceName": "Gorges Ventures",
+      "sourceUrl": "https://eship.cornell.edu/item/gorges-ventures/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.gorgesventures.com/",
+        "label": "Visit Gorges Ventures",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Johnson MBA students"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities"
+  },
+  {
+    "id": "ccem",
+    "slug": "canizares-center-emerging-markets",
+    "kind": "organization",
+    "domains": [
+      "communities",
+      "events",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Cañizares Center for Emerging Markets",
+    "shortDescription": "A Cornell business center focused on emerging-market research, education, and community connections.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "SC Johnson College of Business",
+    "tags": [
+      "emerging-markets",
+      "research",
+      "business",
+      "events"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "SC Johnson College of Business",
+      "sourceUrl": "https://business.cornell.edu/centers/ccem/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://business.cornell.edu/centers/ccem/",
+        "label": "Visit the Cañizares Center",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "johnson-entrepreneurship-track",
+    "discoverable": false,
+    "slug": "johnson-entrepreneurship-track",
+    "kind": "program",
+    "domains": [
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Johnson Entrepreneurship Track",
+    "shortDescription": "A Johnson pathway supporting MBA students developing business ideas and entrepreneurial skills.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "tags": [
+      "entrepreneurship",
+      "mba",
+      "curriculum",
+      "startups"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Cornell College of Business",
+      "sourceUrl": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+        "label": "Explore Johnson entrepreneurship",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Johnson MBA students"
+      ],
+      "programs": [
+        "Johnson MBA"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "big-red-venture-fund",
+    "slug": "big-red-venture-fund",
+    "kind": "program",
+    "domains": [
+      "people",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Big Red Venture Fund",
+    "shortDescription": "A Johnson MBA course and venture-investing experience that works with real startup capital.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "tags": [
+      "venture-capital",
+      "mba",
+      "startups",
+      "investment"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Johnson School of Management",
+      "sourceUrl": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+        "label": "View the startup suite",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Johnson MBA students"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "big-red-tech-strategy",
+    "slug": "big-red-tech-strategy",
+    "kind": "community",
+    "domains": [
+      "communities",
+      "people",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Big Red Tech Strategy",
+    "shortDescription": "An MBA club connecting first-year Johnson students with Cornell graduate students in the hard sciences around early-stage business strategy.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "tags": [
+      "technology",
+      "strategy",
+      "mba",
+      "cross-campus"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Johnson School of Management",
+      "sourceUrl": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+        "label": "View the startup suite",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Johnson MBA students",
+        "Cornell graduate students"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "undergraduate-research-cornell",
+    "slug": "undergraduate-research-cornell",
+    "kind": "service",
+    "domains": [
+      "people",
+      "opportunities"
+    ],
+    "name": "Undergraduate Research at Cornell",
+    "shortDescription": "Cornell's central starting point for students exploring faculty research, programs, and research pathways.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "research",
+      "faculty",
+      "students",
+      "mentorship"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell University",
+      "sourceUrl": "https://undergraduateresearch.cornell.edu/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://undergraduateresearch.cornell.edu/",
+        "label": "Explore undergraduate research",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "opportunities"
+  },
+  {
+    "id": "research-opportunities-cornell",
+    "slug": "research-opportunities-cornell",
+    "kind": "opportunity",
+    "domains": [
+      "people",
+      "opportunities"
+    ],
+    "name": "Cornell Research Opportunities",
+    "shortDescription": "A guide to finding faculty research, summer programs, paid roles, volunteer positions, and academic-credit opportunities.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "research",
+      "faculty",
+      "summer",
+      "opportunities"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell University",
+      "sourceUrl": "https://undergraduateresearch.cornell.edu/research-opportunities/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://undergraduateresearch.cornell.edu/research-opportunities/",
+        "label": "Browse research opportunities",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "opportunities"
+  },
+  {
+    "id": "cornell-innovation-entrepreneurship",
+    "slug": "cornell-innovation-entrepreneurship",
+    "kind": "organization",
+    "domains": [
+      "people",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Entrepreneurship & Innovation at Cornell",
+    "shortDescription": "A university-wide entrepreneurship and innovation hub supporting researchers, inventors, entrepreneurs, and students.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "innovation",
+      "entrepreneurship",
+      "research",
+      "funding"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell Research & Innovation",
+      "sourceUrl": "https://research-and-innovation.cornell.edu/innovation-entrepreneurship/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://research-and-innovation.cornell.edu/innovation-entrepreneurship/",
+        "label": "Explore Cornell innovation and entrepreneurship",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "cornell-appdev",
+    "slug": "cornell-appdev",
+    "kind": "community",
+    "domains": [
+      "communities",
+      "student_built"
+    ],
+    "name": "Cornell AppDev",
+    "shortDescription": "A student-run community that builds products for the Cornell community.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "student-built",
+      "technology",
+      "product",
+      "software"
+    ],
+    "source": {
+      "sourceType": "student_built",
+      "sourceName": "Cornell AppDev",
+      "sourceUrl": "https://www.cornellappdev.com/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.cornellappdev.com/",
+        "label": "Visit Cornell AppDev",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "studentBuilt": true,
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities"
+  },
+  {
+    "id": "jct-mba-course-planner",
+    "slug": "jct-mba-fall-2026-course-planner",
+    "kind": "student_resource",
+    "domains": [
+      "student_built"
+    ],
+    "name": "JCT MBA Fall 2026 Course Planner",
+    "shortDescription": "A student-built course-planning tool for the Cornell Tech MBA program.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "program": "Cornell Tech MBA",
+    "tags": [
+      "student-built",
+      "course-planning",
+      "mba",
+      "cornell-tech"
+    ],
+    "source": {
+      "sourceType": "student_built",
+      "sourceName": "JCT MBA Fall 2026 Course Planner",
+      "sourceUrl": "https://jctmba27.vercel.app/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://jctmba27.vercel.app/",
+        "label": "Open the course planner",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Cornell Tech MBA students"
+      ],
+      "programs": [
+        "Cornell Tech MBA"
+      ]
+    },
+    "studentBuilt": true,
+    "resourceType": "course_planner",
+    "maintenanceStatus": "unknown",
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "student_built"
+  },
+  {
+    "id": "big-red-ai",
+    "slug": "big-red-ai",
+    "kind": "network",
+    "domains": [
+      "people",
+      "communities",
+      "events",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Big Red AI",
+    "shortDescription": "A Cornellian community connecting people, mentors, jobs, startups, events, research, and related opportunities.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "artificial-intelligence",
+      "startups",
+      "mentors",
+      "jobs",
+      "research"
+    ],
+    "source": {
+      "sourceType": "cornellian_community",
+      "sourceName": "Big Red AI",
+      "sourceUrl": "https://bigredai.org/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://bigredai.org/",
+        "label": "Visit Big Red AI",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "people"
+  },
+  {
+    "id": "startup-tree",
+    "slug": "cornell-startuptree",
+    "kind": "network",
+    "domains": [
+      "people",
+      "communities",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Cornell StartupTree",
+    "shortDescription": "A Cornell entrepreneurship platform for discovering mentors, startups, events, jobs, internships, and founder connections.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "startups",
+      "mentorship",
+      "alumni",
+      "jobs",
+      "entrepreneurship"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell Entrepreneurship Network",
+      "sourceUrl": "https://alumni.cornell.edu/connect/networking/cen/resources/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://cornell.startuptree.co/",
+        "label": "Open Cornell StartupTree",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "people"
+  },
+  {
+    "id": "johnson-mba-entrepreneurship-curriculum",
+    "slug": "johnson-mba-entrepreneurship-curriculum",
+    "kind": "program",
+    "domains": [
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Johnson MBA Entrepreneurship Curriculum",
+    "shortDescription": "Johnson MBA curriculum and startup-building resources connected to entrepreneurship, eLab, and student-run venture experiences.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "program": "Johnson MBA",
+    "tags": [
+      "mba",
+      "entrepreneurship",
+      "curriculum",
+      "startups"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Johnson School of Management",
+      "sourceUrl": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+        "label": "Explore the entrepreneurship curriculum",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Johnson MBA students"
+      ],
+      "programs": [
+        "Johnson MBA"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "cornell-entrepreneurship-courses",
+    "slug": "cornell-entrepreneurship-courses-and-minors",
+    "kind": "program",
+    "domains": [
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Cornell Entrepreneurship Courses and Minors",
+    "shortDescription": "A Cornell guide to entrepreneurship courses, minors, concentrations, and the eLab curriculum pathway.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "entrepreneurship",
+      "courses",
+      "minor",
+      "curriculum"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://eship.cornell.edu/entrepreneurship-courses-and-minors/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://eship.cornell.edu/entrepreneurship-courses-and-minors/",
+        "label": "Browse entrepreneurship courses",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "entrepreneurship"
+  },
+  {
+    "id": "cornell-innovation-workshops",
+    "slug": "cornell-innovation-workshops",
+    "kind": "event",
+    "domains": [
+      "events",
+      "entrepreneurship"
+    ],
+    "name": "Cornell Innovation & Entrepreneurship Workshops",
+    "shortDescription": "Workshops that help students and researchers explore the entrepreneurial journey from ideation to impact.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "workshops",
+      "innovation",
+      "entrepreneurship"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Entrepreneurship at Cornell",
+      "sourceUrl": "https://eship.cornell.edu/item/innovation-entrepreneurship-workshop-series/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://eship.cornell.edu/item/innovation-entrepreneurship-workshop-series/",
+        "label": "View the workshop series",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "events"
+  },
+  {
+    "id": "cornell-organization-discovery",
+    "slug": "cornell-organization-discovery",
+    "kind": "service",
+    "domains": [
+      "communities",
+      "events"
+    ],
+    "name": "Cornell Student Organization Discovery",
+    "shortDescription": "Cornell's student-organization discovery entry point for finding communities and campus activities.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "student-organizations",
+      "clubs",
+      "communities"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell Campus Activities",
+      "sourceUrl": "https://scl.cornell.edu/get-involved/campus-activities/student-organizations",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://scl.cornell.edu/get-involved/campus-activities/student-organizations",
+        "label": "Explore student organizations",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities"
+  },
+  {
+    "id": "cornell-clubfest",
+    "slug": "cornell-clubfest",
+    "kind": "event",
+    "domains": [
+      "communities",
+      "events"
+    ],
+    "name": "Cornell ClubFest",
+    "shortDescription": "Cornell's student-organization involvement fair and an in-person entry point to campus communities.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "clubs",
+      "student-organizations",
+      "involvement-fair",
+      "communities"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell Campus Activities",
+      "sourceUrl": "https://scl.cornell.edu/sub/clubfest",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://scl.cornell.edu/sub/clubfest",
+        "label": "Learn about ClubFest",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "events"
+  },
+  {
+    "id": "cornell-research-innovation",
+    "discoverable": false,
+    "slug": "cornell-research-innovation",
+    "kind": "organization",
+    "domains": [
+      "people",
+      "opportunities",
+      "entrepreneurship"
+    ],
+    "name": "Cornell Research & Innovation",
+    "shortDescription": "A university division connecting research, innovation, technology licensing, entrepreneurship, and commercialization resources.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "research",
+      "innovation",
+      "technology-transfer",
+      "entrepreneurship"
+    ],
+    "source": {
+      "sourceType": "official_university",
+      "sourceName": "Cornell Research & Innovation",
+      "sourceUrl": "https://research-and-innovation.cornell.edu/innovation-entrepreneurship/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://research-and-innovation.cornell.edu/innovation-entrepreneurship/",
+        "label": "Explore research and innovation",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "opportunities"
+  },
+  {
+    "id": "jct-mba-program",
+    "slug": "jct-mba-program",
+    "kind": "program",
+    "domains": [
+      "communities",
+      "opportunities",
+      "student_built"
+    ],
+    "name": "Cornell Tech MBA",
+    "shortDescription": "Cornell's technology-focused MBA program and the intended audience for the JCT course planner resource.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "program": "Cornell Tech MBA",
+    "tags": [
+      "mba",
+      "technology",
+      "cornell-tech"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Cornell Tech",
+      "sourceUrl": "https://tech.cornell.edu/programs/masters-programs/johnson-cornell-tech-mba/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://tech.cornell.edu/programs/masters-programs/johnson-cornell-tech-mba/",
+        "label": "Explore Cornell Tech MBA",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Cornell Tech MBA students"
+      ],
+      "programs": [
+        "Cornell Tech MBA"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "opportunities"
+  },
+  {
+    "id": "johnson-entrepreneurship-events",
+    "discoverable": false,
+    "slug": "johnson-entrepreneurship-events",
+    "kind": "network",
+    "domains": [
+      "events",
+      "communities",
+      "entrepreneurship"
+    ],
+    "name": "Johnson Entrepreneurship Community",
+    "shortDescription": "The Johnson-connected entrepreneurship community spanning courses, startup programs, clubs, events, and founders.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "school": "Johnson Graduate School of Management",
+    "tags": [
+      "mba",
+      "entrepreneurship",
+      "events",
+      "founders"
+    ],
+    "source": {
+      "sourceType": "official_school_department",
+      "sourceName": "Johnson School of Management",
+      "sourceUrl": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.johnson.cornell.edu/programs/full-time-mba/two-year-mba/curriculum/entrepreneurship/",
+        "label": "Explore Johnson entrepreneurship",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Johnson MBA students"
+      ]
+    },
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19",
+    "primaryDomain": "communities"
+  },
+  {
+    "id": "cornell-appdev-apps",
+    "slug": "cornell-appdev-apps",
+    "kind": "student_resource",
+    "domains": [
+      "student_built",
+      "communities"
+    ],
+    "primaryDomain": "student_built",
+    "name": "Cornell AppDev Apps",
+    "shortDescription": "A verified collection of student-built Cornell apps for dining, transit, course alerts, student publications, resale, and fitness.",
+    "universityId": "cornell-university",
+    "universityName": "Cornell University",
+    "tags": [
+      "student-built",
+      "apps",
+      "technology",
+      "campus-life"
+    ],
+    "source": {
+      "sourceType": "student_built",
+      "sourceName": "Cornell AppDev",
+      "sourceUrl": "https://www.cornellappdev.com/apps",
+      "confidence": "high"
+    },
+    "links": [
+      {
+        "url": "https://www.cornellappdev.com/apps",
+        "label": "Explore Cornell AppDev apps",
+        "linkType": "primary_source",
+        "isPrimary": true
+      }
+    ],
+    "audience": {
+      "audiences": [
+        "Cornell students"
+      ]
+    },
+    "studentBuilt": true,
+    "resourceType": "app_collection",
+    "status": "active",
+    "lastVerifiedAt": "2026-08-19"
+  }
 ]

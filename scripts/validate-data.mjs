@@ -11,6 +11,8 @@ const allowedSources = new Set(["official_university", "official_school_departme
 const ids = new Set();
 const errors = [];
 const warnings = [];
+const normalizedNames = new Map();
+const primaryUrls = new Map();
 
 for (const entity of entities) {
   if (!entity.id || ids.has(entity.id)) errors.push(`Duplicate or missing entity ID: ${entity.id || "(missing)"}`);
@@ -20,12 +22,38 @@ for (const entity of entities) {
   }
   if (!allowedKinds.has(entity.kind)) errors.push(`${entity.id}: invalid kind ${entity.kind}`);
   if (!Array.isArray(entity.domains) || !entity.domains.length || entity.domains.some((domain) => !allowedDomains.has(domain))) errors.push(`${entity.id}: invalid domains`);
+  if (!allowedDomains.has(entity.primaryDomain)) errors.push(`${entity.id}: invalid or missing primaryDomain`);
+  if (entity.primaryDomain && !entity.domains?.includes(entity.primaryDomain)) errors.push(`${entity.id}: primaryDomain must also appear in domains`);
+  if (entity.discoverable !== undefined && typeof entity.discoverable !== "boolean") errors.push(`${entity.id}: discoverable must be boolean when present`);
   if (!allowedSources.has(entity.source?.sourceType)) errors.push(`${entity.id}: invalid source type`);
   if (!entity.source?.sourceUrl) errors.push(`${entity.id}: missing source URL`);
   if (entity.source?.sourceUrl) { try { const url = new URL(entity.source.sourceUrl); if (!/^https?:$/.test(url.protocol)) errors.push(`${entity.id}: source URL is not HTTP(S)`); } catch { errors.push(`${entity.id}: malformed source URL`); } }
   if (!Array.isArray(entity.links) || !entity.links.length || !entity.links.some((link) => link.isPrimary)) errors.push(`${entity.id}: missing primary link`);
   for (const link of entity.links || []) { try { const url = new URL(link.url); if (!/^https?:$/.test(url.protocol)) errors.push(`${entity.id}: malformed link URL`); } catch { errors.push(`${entity.id}: malformed link URL`); } }
+  const primaryLink = entity.links?.find((link) => link.isPrimary);
+  if (primaryLink) {
+    const normalizedPrimaryUrl = primaryLink.url.replace(/\/$/, "");
+    if (entity.discoverable !== false) {
+      const owners = primaryUrls.get(normalizedPrimaryUrl) || [];
+      owners.push(entity.id);
+      primaryUrls.set(normalizedPrimaryUrl, owners);
+    }
+    if (entity.id !== "entrepreneurship-ecosystem" && /\/(all-listings|resources)\/?(?:[?#].*)?$/.test(primaryLink.url)) {
+      errors.push(`${entity.id}: primary action uses a generic directory instead of an exact resource page`);
+    }
+  }
+  const normalizedName = entity.name?.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  if (normalizedName) {
+    if (normalizedNames.has(normalizedName)) errors.push(`${entity.id}: duplicate normalized name with ${normalizedNames.get(normalizedName)}`);
+    normalizedNames.set(normalizedName, entity.id);
+  }
+  if (entity.studentBuilt && entity.source?.sourceType !== "student_built") errors.push(`${entity.id}: studentBuilt entities must use student_built provenance`);
+  if (entity.source?.sourceType === "student_built" && !entity.studentBuilt) errors.push(`${entity.id}: student_built provenance requires studentBuilt: true`);
   if (!entity.lastVerifiedAt) warnings.push(`${entity.id}: missing lastVerifiedAt`);
+}
+
+for (const [url, owners] of primaryUrls) {
+  if (owners.length > 1) warnings.push(`Shared primary URL (${owners.join(", ")}): ${url}`);
 }
 
 const relationshipIds = new Set();

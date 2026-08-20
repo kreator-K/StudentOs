@@ -1,68 +1,93 @@
 # Cornell Student OS Seed Dataset
 
-Last verified: 2026-08-17
+Last verified: 2026-08-19
 
-This is a curated, source-linked seed dataset for the Cornell Student OS MVP. It is intentionally not a comprehensive map of Cornell. The dataset is designed to demonstrate discovery and cross-category navigation across communities, people-discovery platforms, events, opportunities, entrepreneurship, and student-built resources.
+This is a curated, source-linked seed dataset for the Cornell Student OS MVP. It is intentionally not a comprehensive map of Cornell. The unified graph contains 42 entities and 43 relationships; 37 entities are student-facing discovery results and five are retained only as graph context to prevent duplicate or non-actionable cards.
 
 ## Contents
 
-- `entities.json` — 42 structured Cornell entities.
-- `relationships.json` — 44 directed relationships between entities.
+- `entities.json` — unified entities with provenance, direct action URLs, audience, tags, one explicit `primaryDomain`, and optional `discoverable` state.
+- `relationships.json` — directed, confidence-labelled connections between entity IDs.
 
 ## Entity counts
 
 | Kind | Count |
 |---|---:|
 | organization | 7 |
-| network | 10 |
+| network | 9 |
 | community | 6 |
 | service | 4 |
 | program | 8 |
 | opportunity | 3 |
 | event | 2 |
 | place | 1 |
-| student_resource | 1 |
+| student_resource | 2 |
 | **Total** | **42** |
 
-Note: the counts above are grouped by underlying `kind`; an entity can appear in multiple student-facing `domains`.
+## Student-facing discovery counts
+
+| Primary domain | Count |
+|---|---:|
+| Communities | 7 |
+| People & Networks | 4 |
+| Events | 3 |
+| Opportunities | 8 |
+| Entrepreneurship | 13 |
+| Student-built | 2 |
+| **Discoverable total** | **37** |
+
+The remaining five entities are graph context. They support relationships but are not shown as standalone cards because they duplicate a more actionable resource or are too broad to be useful discovery results.
 
 ## Source counts
 
 | Source type | Count |
 |---|---:|
-| official_university | 27 |
+| official_university | 24 |
 | official_school_department | 11 |
+| cornellian_community | 4 |
 | student_built | 3 |
-| cornellian_community | 1 |
 | external | 0 |
 
-## Source list
+## Principal sources
 
 - Cornell University — https://www.cornell.edu/
 - Cornell CampusGroups — https://cornell.campusgroups.com/
 - Cornell Events — https://events.cornell.edu/
 - CUeLINKS — https://cuelinks.cornell.edu/
 - Cornell Career Services — https://career.cornell.edu/
-- Cornell Career Experiences — https://career.cornell.edu/experiences/
-- Johnson School of Management — https://www.johnson.cornell.edu/
-- Johnson student life — https://www.johnson.cornell.edu/experience/student-life/
-- Johnson career support — https://business.cornell.edu/career-support/
+- Cornell SC Johnson College of Business — https://business.cornell.edu/
+- Cornell Tech — https://tech.cornell.edu/
 - Entrepreneurship at Cornell — https://eship.cornell.edu/
-- Entrepreneurship ecosystem listings — https://eship.cornell.edu/all-listings/
-- Cornell eLab — https://elab.cornell.edu/
-- Blackstone LaunchPad — https://eship.cornell.edu/blackstone-launchpad/
-- Center for Regional Economic Advancement — https://crea.cornell.edu/on-campus-entrepreneurship-programs/
+- Cornell Research & Innovation — https://research-and-innovation.cornell.edu/
 - Cañizares Center for Emerging Markets — https://business.cornell.edu/centers/ccem/
+- Cornell Student & Campus Life — https://scl.cornell.edu/
 - Undergraduate Research at Cornell — https://undergraduateresearch.cornell.edu/
-- Cornell Research & Innovation — https://research-and-innovation.cornell.edu/innovation-entrepreneurship/
 - Cornell AppDev — https://www.cornellappdev.com/
 - JCT MBA Fall 2026 Course Planner — https://jctmba27.vercel.app/
 - Big Red AI — https://bigredai.org/
-- Cornell entrepreneurial resources — https://alumni.cornell.edu/connect/networking/cen/resources/
+- Cornell StartupTree — https://cornell.startuptree.co/
+
+## Validation results
+
+- All 42 entity IDs and all 43 relationship IDs are unique.
+- Every entity has a valid source type, source URL, direct primary link, and `primaryDomain`.
+- Every primary domain is one of the six portable Student OS discovery areas and also appears in the entity's broader `domains` list.
+- All relationship endpoints resolve to existing entity IDs.
+- Student-built provenance requires `studentBuilt: true`; official and Cornellian/community resources remain distinguishable.
+- Generic directory pages are rejected as primary actions unless the entity is itself that directory.
+- An external HTTP audit on 2026-08-19 checked all 37 discoverable primary links and received a successful response from every one.
+- Duplicate primary URLs are reported for review. The remaining shared Johnson entrepreneurship page contains distinct, named sections for the curriculum, Big Red Venture Fund, and Big Red Tech Strategy.
+
+## Notable changes from the previous seed
+
+- Cornell StartupTree now opens `https://cornell.startuptree.co/`; the Cornell alumni page remains provenance.
+- Blackstone LaunchPad was updated to its current name, Launchpad Ezra, and its exact Cornell detail page.
+- Cornell Tech MBA, eLab, eHub, Mark Mobius Pitch Competition, Capitalista, Gorges Ventures, Green Technology Innovation Fellows, and the workshop series now use current direct pages.
+- The parked Generative AI at Cornell domain is no longer used. Its current Cornell directory detail page is the action URL and carries a visible freshness note.
+- A synthetic “Cornell Student-built Resources” card was replaced with the verified Cornell AppDev Apps collection.
+- Broad university nodes and overlapping Johnson/research nodes remain in the graph but are hidden from browse/search results.
 
 ## Notable connected paths
-
-The dataset supports paths such as:
 
 ```text
 AI
@@ -75,52 +100,22 @@ AI
 
 ```text
 Johnson MBA
-→ Johnson Entrepreneurship Curriculum
+→ Johnson MBA Entrepreneurship Curriculum
 → eLab
 → Johnson Summer Startup Accelerator
 → Big Red Venture Fund
-→ Big Red Tech Strategy
-```
-
-```text
-Emerging markets
-→ Cañizares Center for Emerging Markets
-→ Mark Mobius Pitch Competition
-→ Cornell Entrepreneur Network
 ```
 
 ```text
 Cornell Tech MBA
 → JCT MBA Fall 2026 Course Planner
-→ Cornell Student-built Resources
 ```
 
-## Validation notes
+## Gaps and assumptions
 
-- Every entity has a non-empty source URL and source type.
-- Every entity has a primary external link.
-- Relationship references are validated against entity IDs.
-- No duplicate entity IDs are present.
-- Near-duplicate event records were consolidated so a resource appears once in its primary discovery area; other contexts are represented through relationships.
-- Student-built entities are explicitly labeled with `source.sourceType: student_built`.
-- Dates and deadlines were omitted unless a directly verified date was available. The current seed therefore contains no fabricated event dates or application deadlines.
-- Several entrepreneurship entities use the official ecosystem listing page as their source because it verifies the listing but does not expose a stable direct detail URL in the source material reviewed.
-- No individual person entities were added. CUeLINKS, Big Red AI, Cornell StartupTree, and related networks provide people-discovery entry points, but individual profiles require separate verification and privacy review.
-
-## Gaps and next validation pass
-
-1. Add verified individual public profiles for founders, mentors, faculty, or student leaders only where a direct profile and appropriate public-use basis exist.
-2. Add more verified events with exact dates, times, locations, and registration links.
-3. Add more communities from CampusGroups and Johnson student life with direct organization URLs and current-term activity status.
-4. Verify the Cornell Tech MBA URL and the current maintenance status of the JCT course planner.
-5. Add verified student-built resources beyond Cornell AppDev and the JCT course planner; do not infer student-built status from appearance alone.
-6. Replace ecosystem-directory links with direct detail URLs when stable, useful detail pages are available.
-7. Add source-specific freshness checks before demo data is treated as production content.
-
-## Assumptions
-
-- A resource listed by an official Cornell ecosystem directory is treated as existing and source-verified, even when a separate direct detail page is not available.
-- Entrepreneurship is modeled as a student-facing domain rather than a single underlying entity kind.
-- Student-built is modeled both as a domain and as provenance.
-- Some relationships are marked `medium` where they represent a curated discovery connection rather than an explicit source-stated relationship. These should be reviewed before use in authoritative UI copy.
-- The dataset is Cornell-specific in content but uses university-neutral entity and relationship fields so another university can replace the entity records without changing the schema.
+1. No individual person profiles are included; public-profile verification and privacy review are still required.
+2. Live event dates are not indexed, so the product hands students to verified Cornell event calendars.
+3. The dataset has only two student-facing student-built results. Expansion must use individually verified tools, not hypothetical examples.
+4. Some relationship edges are marked `medium` because they are curated discovery connections rather than source-stated facts.
+5. A university base URL is useful ingestion configuration, but it is not sufficient evidence by itself. Future ingestion should combine sitemaps/crawling, canonical URL handling, source classification, deduplication, and human approval.
+6. Content is Cornell-specific, but the schema and six `primaryDomain` values are university-neutral.
