@@ -41,3 +41,7 @@ The app is a static Vite build. Run `npm run build` and deploy the generated `di
 ## Competition demo
 
 See [`docs/demo.md`](docs/demo.md) for the locked two-minute demo path and canonical entity IDs.
+
+## Product audit
+
+The latest senior PM review is documented in [`docs/uat-product-audit.md`](docs/uat-product-audit.md). It covers UAT results, taxonomy and duplication risks, search quality, mobile/accessibility findings, data-trust gaps, and prioritized recommendations.
