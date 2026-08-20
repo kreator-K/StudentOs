@@ -6,8 +6,8 @@ This is a curated, source-linked seed dataset for the Cornell Student OS MVP. It
 
 ## Contents
 
-- `entities.json` — 45 structured Cornell entities.
-- `relationships.json` — 47 directed relationships between entities.
+- `entities.json` — 42 structured Cornell entities.
+- `relationships.json` — 44 directed relationships between entities.
 
 ## Entity counts
 
@@ -19,10 +19,10 @@ This is a curated, source-linked seed dataset for the Cornell Student OS MVP. It
 | service | 4 |
 | program | 8 |
 | opportunity | 3 |
-| event | 5 |
+| event | 2 |
 | place | 1 |
 | student_resource | 1 |
-| **Total** | **45** |
+| **Total** | **42** |
 
 Note: the counts above are grouped by underlying `kind`; an entity can appear in multiple student-facing `domains`.
 
@@ -30,7 +30,7 @@ Note: the counts above are grouped by underlying `kind`; an entity can appear in
 
 | Source type | Count |
 |---|---:|
-| official_university | 30 |
+| official_university | 27 |
 | official_school_department | 11 |
 | student_built | 3 |
 | cornellian_community | 1 |
@@ -101,6 +101,7 @@ Cornell Tech MBA
 - Every entity has a primary external link.
 - Relationship references are validated against entity IDs.
 - No duplicate entity IDs are present.
+- Near-duplicate event records were consolidated so a resource appears once in its primary discovery area; other contexts are represented through relationships.
 - Student-built entities are explicitly labeled with `source.sourceType: student_built`.
 - Dates and deadlines were omitted unless a directly verified date was available. The current seed therefore contains no fabricated event dates or application deadlines.
 - Several entrepreneurship entities use the official ecosystem listing page as their source because it verifies the listing but does not expose a stable direct detail URL in the source material reviewed.
